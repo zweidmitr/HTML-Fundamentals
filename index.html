@@ -39,7 +39,9 @@
           width="50"
           height="50"
         />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -72,7 +74,7 @@
         paragraphs, links, headings, images, video, etc. Web browsers understand
         HTML and render HTML code as websites.
       </p>
-      <b>In HTML, each element is made up of 3 parts:</b>
+      <p>In HTML, each element is made up of 3 parts:</p>
       <ol>
         <li>The opening tag</li>
         <li>The closing tag</li>
@@ -105,13 +107,13 @@
         <li>To have fun 😃</li>
       </ul>
 
-      Hopefully you learned something new here. See you next time!
+      <p>Hopefully you learned something new here. See you next time!</p>
     </article>
 
     <aside>
       <h4>Related posts</h4>
     </aside>
-    <ul>
+    <ul class="related">
       <li>
         <img
           src="img/related-1.jpg"
@@ -120,7 +122,7 @@
           height="75"
         />
         <a href="#">How to Learn Web Development</a>
-        <p>By Jonas Schmedtmann</p>
+        <p class="related-author">By Jonas Schmedtmann</p>
       </li>
       <li>
         <img
@@ -130,7 +132,7 @@
           height="75"
         />
         <a href="#">The Unknown Powers of CSS</a>
-        <p>By Jim Dillon</p>
+        <p class="related-author">By Jim Dillon</p>
       </li>
       <li>
         <img
@@ -140,10 +142,12 @@
           height="75"
         />
         <a href="#">Why JavaScript is Awesome</a>
-        <p>By zweidmitr</p>
+        <p class="related-author">By zweidmitr</p>
       </li>
     </ul>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine</p>
+    </footer>
   </body>
 </html>
