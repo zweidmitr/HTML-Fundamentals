@@ -1,1 +1,1 @@
-# HTML-Fundamentals
+# Fundamentals: HTML and CSS
